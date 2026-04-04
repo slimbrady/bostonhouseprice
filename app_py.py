@@ -11,6 +11,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+
+model- joblib.load(model.pkl)
 st.set_page_config(page_title = 'Boston house price predictor',
                    page_icon = '🏠',
                    layout = 'centered',
@@ -50,7 +52,7 @@ input_data = pd.DataFrame({
     "PTRATIO": [ptratio],
     "B": [b],
     "LSTAT": [lstat]
-}]
+})
 
 if st.button('Predict House Price'):
   prediction= mod.predict(input_data)
