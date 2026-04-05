@@ -37,19 +37,19 @@ Lstat = st.number_input("LSTAT - % lower status of the population", min_value=0.
 
 
 input_data = pd.DataFrame({
-    "CRIM": [crim],
+    "crim": [crim],
     "Zn": [Zn],
-    "INDUS": [indus],
-    "CHAS": [chas],
-    "NOX": [nox],
-    "RM": [rm],
-    "AGE": [age],
-    "DIS": [dis],
-    "RAD": [rad],
-    "TAX": [tax],
-    "PTRATIO": [ptratio],
-    "B": [b],
-    "LSTAT": [lstat]
+    "indus": [indus],
+    "chas": [chas],
+    "Nox": [Nox],
+    "Rm": [Rm],
+    "Age": [Age],
+    "Dis": [Dis],
+    "Rad": [Rad],
+    "Tax": [Tax],
+    "PTRATIO": [Ptratio],
+    "B": [B],
+    "LSTAT": [Lstat]
 })
 
 if st.button('Predict House Price'):
