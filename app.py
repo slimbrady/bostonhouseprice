@@ -55,4 +55,3 @@ if st.button('Predict House Price'):
   prediction= model.predict(input_data)
   st.success(f'The predicted house price is ${prediction[0]:.2f}')
 
-pip install streamlit -q
