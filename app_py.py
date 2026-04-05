@@ -12,7 +12,7 @@ import pandas as pd
 import joblib
 
 
-model- joblib.load(model.pkl)
+model.joblib.load(model.pkl)
 st.set_page_config(page_title = 'Boston house price predictor',
                    page_icon = '🏠',
                    layout = 'centered',
