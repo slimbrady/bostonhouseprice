@@ -11,10 +11,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-
-model.joblib.load(model_pk)
 st.set_page_config(page_title = 'Boston house price predictor',
                    page_icon = '🏠',)
+model.joblib.load(model_pk)
+
 
 st.title('Boston house price predictor')
 st.write('Enter your feature values to predict the house price in $1000s')
