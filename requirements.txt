@@ -1,5 +1,5 @@
 
 joblib
 pandas
-Scikit-learn
+Scikit-learn== 1.6.1
 streamlit
