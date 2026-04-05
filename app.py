@@ -53,5 +53,3 @@ input_data = pd.DataFrame({
 if st.button('Predict House Price'):
   prediction= model.predict(input_data.values)
   st.success(f'The predicted house price is ${prediction[0]:.2f}')
-
-pip install streamlit
