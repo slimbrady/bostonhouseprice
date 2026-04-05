@@ -38,7 +38,7 @@ Lstat = st.number_input("LSTAT - % lower status of the population", min_value=0.
 
 input_data = pd.DataFrame({
     "CRIM": [crim],
-    "ZN": [zn],
+    "Zn": [zn],
     "INDUS": [indus],
     "CHAS": [chas],
     "NOX": [nox],
