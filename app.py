@@ -10,7 +10,6 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import joblib
-import warnings
 st.set_page_config(page_title = 'Boston house price predictor',
                    page_icon = '🏠',
                    layout = 'centered',
