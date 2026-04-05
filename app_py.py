@@ -53,5 +53,5 @@ input_data = pd.DataFrame({
 })
 
 if st.button('Predict House Price'):
-  prediction= mod.predict(input_data)
+  prediction= model.predict(input_data)
   st.success(f'The predicted house price is ${prediction[0]:.2f}')
