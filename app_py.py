@@ -13,7 +13,7 @@ import joblib
 
 st.set_page_config(page_title = 'Boston house price predictor',
                    page_icon = '🏠',)
-model= joblib.load('model (3).pkl')
+model= joblib.load('model.pkl')
 
 
 st.title('Boston house price predictor')
@@ -49,7 +49,7 @@ input_data = pd.DataFrame({
     "Tax": [Tax],
     "PTRATIO": [Ptratio],
     "B": [B],
-    "LSTAT": [Lstat]
+    "LSTAT": [LStat]
 })
 
 if st.button('Predict House Price'):
