@@ -13,7 +13,7 @@ import joblib
 
 st.set_page_config(page_title = 'Boston house price predictor',
                    page_icon = '🏠',)
-model.joblib.load(model_pk)
+model.joblib.load(model.pkl)
 
 
 st.title('Boston house price predictor')
