@@ -33,7 +33,7 @@ Rad = st.number_input("RAD - accessibility to radial highways", min_value=1, val
 Tax = st.number_input("TAX - property-tax rate per $10,000", min_value=0.0, value=300.0, step=1.0)
 Ptratio = st.number_input("PTRATIO - pupil-teacher ratio", min_value=0.0, value=18.0, step=0.1)
 B = st.number_input("B - calculated demographic feature", min_value=0.0, value=390.0, step=1.0)
-Lstat = st.number_input("LSTAT - % lower status of the population", min_value=0.0, value=12.0, step=0.1)
+LStat = st.number_input("LSTAT - % lower status of the population", min_value=0.0, value=12.0, step=0.1)
 
 
 input_data = pd.DataFrame({
